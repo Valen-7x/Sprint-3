@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../img/playing.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Bruno Ace', cursive;
+}
+.allMain{
+    width:100%;
+    display: flex;
+    height: 700PX; 
+}
+.main{
+    height:700px;
+}
+.nav-bar{
+    font-size: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(161,6,163,1) 68%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    gap: 5px;
+    align-items:center;
+    width:auto;
+    height: 3rem;
+    transition:all 1 step-start;
+    position: sticky;
+}
+#home{
+    color:rgb(224, 224, 224);
+  
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#about{
+    color:rgb(224, 224, 224);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#benefits, #more,#contact,#raffle{
+    color:rgb(224, 224, 224);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#home:hover {
+    transform: scale(1.1, 1.1) ;
+    background-color: rgb(188, 160, 233);
+}
+#about:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#contact:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+
+#more:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#benefits:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#raffle:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#logo:hover{
+    transition: transform 1s;
+    transform: rotate(360deg);
+}
+#logo{
+    width: 55px;
+    height:50px;
+    object-fit: cover;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+.cajagirl{
+    width: 100%;
+    height: 20rem;
+    display:flex;
+    margin-top: 3rem;
+    justify-content: right;
+}
+.cajaguys{
+    width: 100%;
+    height: 40rem;
+    display:flex;
+    justify-content: right;  
+}
+#girl{
+    width: 70rem;
+    height: 300px;
+    object-fit: cover;
+}
+.imagen2{
+    object-fit: cover;
+    width:500px;
+    height: 400px;
+}
+.parrafo{
+    font-size: 1.5rem;
+    color: rgb(192, 192, 192);
+    margin-right: 4rem;
+    margin-top: 4rem;
+    } 
+/*Hasta aca son los styles de home*/
+/*Ahora comienzan los estilos de About Us*/
+.presentation2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:row;
+}
+.imgs{
+    display: flex;
+    width: 30rem;
+    height:60rem;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-around; 
+    margin: 0%; 
+}
+div img{   
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60rem;
+    color: rgb(192, 192, 192);
+}
+#love{
+    font-size: 1.5rem;
+    top:16rem;
+}
+#love2{
+    font-size: 1.5rem;
+    top:35rem;
+}
+#love3{
+    font-size: 1.5rem;
+    top:55rem;
+}
+
+/*Contact*/
+#presentation3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgcontact{
+    display: flex;
+    margin-left: 4rem;
+    width: 10rem;
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+/*aca empieza el footer */
+
+footer>nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(190, 190, 190, 0.692);
+    height: 1.5rem;
+    margin-top: 8.5rem;
+}
+footer h4{
+    text-align: center;
+    margin-top:2px;
+}
+/*More Information*/
+.presentation4, .presentation5{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    margin-top: 2rem;
+}
+.sTable{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+table td,th{
+    border: 2px solid white;
+    color: azure;
+    width:10rem;
+    height: 7rem;
+    margin-top: 15rem;
+}
+/*benefits*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    height: 45rem;
+    flex-direction:row;
+}
+.imgs2{
+    display: flex;
+    width: 20rem;
+    height:25rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
+    flex-direction: column; 
+    justify-content: space-around;  
+}
+
+.parrafos2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:start;
+    width: 300px;
+    height: 50rem;
+    color: white;
+    margin-right: 5rem;
+    margin-top: -6rem;
+}
+.lista1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    width: 300px;
+    height: 20rem;
+}
+.lista2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 20rem;
+    margin-top: 22rem;
+    }
+.subtittle{
+    color: rgb(250, 110, 255);
+}
+/*ACA EMPIEZA RAFFLE*/
+.presentation6{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    margin-top: 1rem;
+}
+fieldset{
+    width: 15rem;
+    height: 18rem;
+    background: rgb(246,0,228);
+    background: radial-gradient(circle, rgba(246,0,228,1) 0%, rgba(238,222,235,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(28,0,246);
+    background: radial-gradient(circle, rgba(28,0,246,1) 0%, rgba(222,238,231,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+    border-radius: 5px;
+    margin-left: 2rem;
+    width:20rem;
+    height: 40rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.message1{
+    width:200px;
+    height :90px;
+    margin-left: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+span{
+    font-size:12px ;
+    margin-left: 1rem;
+}
+.inputFirst{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.labelFirst{
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+iframe{
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.mapTittle{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: rgb(77, 156, 161);
+}
+.terms{
+    font-size: 10px;
+}
+.button{
+    margin-left: 8rem;
+    width: 90px;
+    height: 30px;
+}
+main{
+height: 60rem;}
+@media only screen and (min-width:320px) and (max-width:768px) {
+   
+    body{
+        background-image: url(../img/playing.jpg);
+        
+        font-family: 'Bruno Ace', cursive;
+    }
+    .nav-bar{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(161,6,163,1) 68%, rgba(0,212,255,1) 100%);
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        font-size: 10px;
+        align-items:center;
+        text-align: center;
+        height: 170px;
+        min-width: 325px;
+        margin: 0px;
+   }
+.presentation{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    font-size: 8px;
+    margin-top: 7px;
+    margin-left: 1rem;
+}
+.section0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cajagirl{
+    width: 100%;
+    height: 3rem;
+    display:flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.cajaguys{
+    width: 100%;
+    height: 40rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#girl{
+    min-width: 250px;
+    max-width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 2rem;
+}
+.imagen2{
+    object-fit: cover;
+    width: 200px;
+    height: 400px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.parrafo{
+    font-size: 1rem;
+    color: rgb(192, 192, 192);
+    margin-left: 3rem;
+    margin-top: 12rem;
+    } 
+   #home,#about,#contact{
+    margin-left: 2rem;
+   } 
+
+   /* ACA EMPIEZA RAFFLE*/
+   .mapTittle{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(77, 156, 161);
+}
+.allMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+}
+    iframe{
+        height: 100px;
+        width: 100px;
+        margin-left: 7rem;
+        margin-top: 0;
+    }
+    #home{
+        color:rgb(224, 224, 224);
+        border-radius: 1rem;
+        margin-top: 5px;
+    }
+    #about{
+        color: rgb(224, 224, 224);
+        border-radius: 1rem;
+    }
+    
+    #benefits, #more,#contact,#raffle{
+        color: rgb(224, 224, 224);
+        ;
+        border-radius: 1rem;
+    }
+    #home:hover {
+        transform: scale(1.1, 1.1) ;
+        background-color: rgb(188, 160, 233);
+    }
+    #about:hover{
+        transform: scale(1.1, 1.1);
+        background-color: rgb(188, 160, 233);
+    }
+    #contact:hover{
+        transform: scale(1.1, 1.1);
+        background-color: rgb(188, 160, 233);
+    }
+    
+    #more:hover{
+        transform: scale(1.1, 1.1);
+        background-color: rgb(188, 160, 233);
+    }
+    #benefits:hover{
+        transform: scale(1.1, 1.1);
+        background-color: rgb(188, 160, 233);
+    }
+    #raffle:hover{
+        transform: scale(1.1, 1.1);
+        background-color: rgb(188, 160, 233);
+    }
+    #logo:hover{
+        transition: transform 1s;
+        transform: rotate(360deg);
+    }
+    #logo{
+        margin-top: 4rem;
+        width: 25px;
+        height:20px;
+        object-fit: cover;
+    }
+    .presentation6{
+        color: rgb(250, 110, 255);
+        text-align: center;
+        font-size: 8px;
+        margin-top: 1px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        background: rgb(28,0,246);
+        background: radial-gradient(circle, rgba(28,0,246,1) 0%, rgba(222,238,231,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+        border-radius: 5px;
+        border: 3px solid rgb(0, 26, 141);
+        font-size: 10px;
+        width:200px;
+        height: 480px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+.field{
+        width: 0px;
+        height: 110px;
+        background: rgb(246,0,228);
+        background: radial-gradient(circle, rgba(246,0,228,1) 0%, rgba(238,222,235,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+        border-radius: 5px;   
+        margin-right: 0rem;
+        margin-top:1px;
+        margin-left: 0;
+        padding: 0;
+    }
+    .message1{
+        width: 150px;
+        height:50px;
+        margin-right: 1rem;
+    }
+    .button{
+        margin-right: 0rem;
+        margin-left: 3rem;
+        margin-top: -8rem;
+    }
+    footer>nav{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(190, 190, 190, 0.692);
+        margin-top: 10px;
+    }
+    footer{
+      min-width: 325px;
+      font-size: 10px;
+    }
+    main{
+        height: 800px;
+    }
+    .allMain{
+        height: 800px;
+    }
+    footer{
+        margin-top: 4rem;
+    }
+    .terms{
+        margin-top: -2rem;
+    }
+    /*Benefits and Tips*/
+.imgs2
+{   margin-top: 13rem;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 1rem;}
+    .subtittle{
+        display: flex;
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+    main{
+        width: 320px;
+        height: 40rem;
+    }
+    .section2{
+        
+        display: flex;
+        width: 325px;
+        height: 40rem;
+        margin: 0px;
+        padding: 0;
+    }
+    .parrafos2{
+        display: flex;
+        flex-direction: row;
+        margin-left: -15rem;
+        margin-top: -10rem;
+        font-size: 10px;
+        width:200px;
+        height: 200px;
+        margin-bottom: -20rem;
+    }
+}
+@media only screen and(min-width:769px) and (min-width:950px){
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 768px){
+    /*About Us*/
+.presentation2{
+    font-size: 10px;
+    color: rgb(250, 110, 255);
+    text-align: center;
+}
+.imgs{
+    width: 10rem;
+    height:40rem;
+}
+.imgs1{
+width: 8rem;
+height:8rem;
+}
+.parrafos{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 40rem;
+font-size: 12px;
+}  
+#love,#love2,#love3{
+font-size: 12px;
+margin-left: 5px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    margin-left: 1px;
+    height: 30rem;
+    width: 325px;
+}
+main{
+height: 50rem;
+width:325px;
+}
+/* CONTACT*/
+#presentation3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgcontact{width: 6rem;
+    height: 25rem;
+    margin-left: 3rem;}
+
+/*more information*/
+.sTable{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    min-width: 310px;
+    }
+    .presentation4, .presentation5{
+        color: rgb(250, 110, 255);
+        text-align: center;
+        font-size: 10px;;
+}
+}

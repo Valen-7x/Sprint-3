@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../img/playing.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Bruno Ace', cursive;
+}
+.allMain{
+    width:100%;
+    display: flex;
+    height: 700PX; 
+}
+.main{
+    height:700px;
+}
+.nav-bar{
+    font-size: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(161,6,163,1) 68%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    gap: 5px;
+    align-items:center;
+    width:auto;
+    height: 3rem;
+    transition:all 1 step-start;
+    position: sticky;
+}
+#home{
+    color:rgb(224, 224, 224);
+  
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#about{
+    color:rgb(224, 224, 224);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#benefits, #more,#contact,#raffle{
+    color:rgb(224, 224, 224);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#home:hover {
+    transform: scale(1.1, 1.1) ;
+    background-color: rgb(188, 160, 233);
+}
+#about:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#contact:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+
+#more:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#benefits:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#raffle:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#logo:hover{
+    transition: transform 1s;
+    transform: rotate(360deg);
+}
+#logo{
+    width: 55px;
+    height:50px;
+    object-fit: cover;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+.cajagirl{
+    width: 100%;
+    height: 20rem;
+    display:flex;
+    margin-top: 3rem;
+    justify-content: right;
+}
+.cajaguys{
+    width: 100%;
+    height: 40rem;
+    display:flex;
+    justify-content: right;  
+}
+#girl{
+    width: 70rem;
+    height: 300px;
+    object-fit: cover;
+}
+.imagen2{
+    object-fit: cover;
+    width:500px;
+    height: 400px;
+}
+.parrafo{
+    font-size: 1.5rem;
+    color: rgb(192, 192, 192);
+    margin-right: 4rem;
+    margin-top: 4rem;
+    } 
+/*Hasta aca son los styles de home*/
+/*Ahora comienzan los estilos de About Us*/
+.presentation2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:row;
+}
+.imgs{
+    display: flex;
+    width: 30rem;
+    height:60rem;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-around; 
+    margin: 0%; 
+}
+div img{   
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60rem;
+    color: rgb(192, 192, 192);
+}
+#love{
+    font-size: 1.5rem;
+    top:16rem;
+}
+#love2{
+    font-size: 1.5rem;
+    top:35rem;
+}
+#love3{
+    font-size: 1.5rem;
+    top:55rem;
+}
+
+/*Contact*/
+#presentation3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgcontact{
+    display: flex;
+    margin-left: 4rem;
+    width: 10rem;
+    height: 30rem;
+    object-fit: cover;
+}
+/*aca empieza el footer */
+
+footer>nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(190, 190, 190, 0.692);
+    height: 1.5rem;
+    margin-top: 4.5rem;
+}
+/*More Information*/
+.presentation4, .presentation5{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    margin-top: 2rem;
+}
+.sTable{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+table td,th{
+    border: 2px solid white;
+    color: azure;
+    width:10rem;
+    height: 7rem;
+    margin-top: 15rem;
+}
+/*benefits*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    height: 70rem;
+    flex-direction:row;
+}
+.imgs2{
+    display: flex;
+    width: 20rem;
+    height:60rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
+    flex-direction: column; 
+    justify-content: space-around;  
+}
+
+.parrafos2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:start;
+    width: 40rem;
+    height: 50rem;
+    color: white;
+}
+.lista1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    width: 40rem;
+    height: 20rem;
+}
+.lista2{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 20rem;
+    margin-top: 22rem;
+    }
+.subtittle{
+    color: rgb(250, 110, 255);
+}
+/*ACA EMPIEZA RAFFLE*/
+.presentation6{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    margin-top: 2rem;
+}
+fieldset{
+    width: 15rem;
+    height: 18rem;
+    background: rgb(246,0,228);
+    background: radial-gradient(circle, rgba(246,0,228,1) 0%, rgba(238,222,235,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(28,0,246);
+    background: radial-gradient(circle, rgba(28,0,246,1) 0%, rgba(222,238,231,1) 35%, rgba(100,66,251,0.9612219887955182) 73%);
+    border-radius: 5px;
+    margin-left: 10rem;
+    width:20rem;
+    height: 40rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.message1{
+    width:200px;
+    height :90px;
+    margin-left: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+span{
+    font-size:12px ;
+    margin-left: 1rem;
+}
+.inputFirst{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+.labelFirst{
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+iframe{
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.mapTittle{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    color: rgb(77, 156, 161);
+}
+.terms{
+    font-size: 10px;
+}
+.button{
+    margin-left: 8rem;
+    width: 90px;
+    height: 30px;
+}
+main{
+height: 60rem;}
+
+/* Reglas para pantallas de 325px a 768px */
+@media only screen and (min-width: 325px) and (max-width: 768px) {
+    /* Estilos para pantallas medianas */
+
+    .nav-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-bar a {
+        flex-grow: 1;
+        width: 50%;
+        margin-bottom: 0.5rem;
+    }
+
+    .presentation2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .presentation2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgs1 {
+        width: 90%;
+        max-width: 400px;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Reglas para pantallas de 768px en adelante */
+@media only screen and (min-width: 768px) {
+    /* Estilos para pantallas grandes */
+
+    .nav-bar {
+        justify-content: left;
+    }
+
+    .nav-bar a {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .presentation2 h1 {
+        font-size: 2rem;
+    }
+
+    .presentation2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .imgs {
+        flex-direction: row;
+    }
+
+    .imgs1 {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 1rem;
+    }
+}
